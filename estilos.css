@@ -1,3 +1,56 @@
 body {
-  background-color: #e6f2ff;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0f7fa;
+  color: #01579b;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #0277bd;
+}
+
+.contenedor-malla {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.columna-ano {
+  background-color: #b3e5fc;
+  border: 2px solid #81d4fa;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.columna-ano h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #01579b;
+}
+
+.curso {
+  margin: 8px 0;
+  padding: 10px;
+  background-color: #4fc3f7;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  font-weight: bold;
+}
+
+.curso.aprobado {
+  background-color: #81c784;
+}
+
+.curso.bloqueado {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+  opacity: 0.7;
 }
