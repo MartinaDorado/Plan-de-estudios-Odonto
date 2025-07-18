@@ -1,13 +1,13 @@
 body {
-  background-color: #e0f7fa;
+  background-color: #fff0f5;
   font-family: "Segoe UI", sans-serif;
-  color: #01579b;
+  color: #333;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #0277bd;
+  color: #d63384;
 }
 
 #malla {
@@ -18,8 +18,8 @@ h1 {
 }
 
 .curso {
-  border: 2px solid #0288d1;
-  background-color: #b3e5fc;
+  border: 2px solid #d63384;
+  background-color: #ffe6f0;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
@@ -30,12 +30,12 @@ h1 {
 }
 
 .curso:hover {
-  background-color: #81d4fa;
+  background-color: #ffc2d4;
 }
 
 .curso.aprobado {
-  background-color: #4fc3f7;
-  border-color: #0288d1;
+  background-color: #f78acb;
+  border-color: #c2185b;
   color: white;
 }
 
