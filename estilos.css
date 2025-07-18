@@ -1,47 +1,27 @@
-body {
-  background-color: #fff0f5;
-  font-family: "Segoe UI", sans-serif;
-  color: #333;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  color: #d63384;
-}
-
-#malla {
+#malla.malla-por-ano {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  margin-top: 30px;
 }
 
-.curso {
+.columna-ano {
+  background-color: #ffd6e8;
   border: 2px solid #d63384;
-  background-color: #ffe6f0;
-  padding: 15px;
   border-radius: 10px;
-  cursor: pointer;
-  width: 200px;
+  padding: 15px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.columna-ano h2 {
   text-align: center;
-  transition: 0.3s;
-  user-select: none;
-}
-
-.curso:hover {
-  background-color: #ffc2d4;
-}
-
-.curso.aprobado {
-  background-color: #f78acb;
-  border-color: #c2185b;
-  color: white;
-}
-
-.curso.bloqueado {
-  background-color: #f3f3f3;
-  border: 2px dashed #ccc;
-  color: #aaa;
-  cursor: not-allowed;
+  margin-bottom: 10px;
+  color: #a31558;
+  font-weight: 700;
 }
